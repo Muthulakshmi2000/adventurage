@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Layout</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.cs
+s" rel="stylesheet">
+    <style>
+        .story {
+            margin: 8%;
+        }
+
+        .story h2 {
+            font-weight: bold;
+        }
+
+        .story p {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+
+        @media (max-width:950px) {
+            .story p {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width:767px) {
+            .story p {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="header-top">
+            <h6>FEELING SPONTANEOUS?! <span style="text-decoration: underline;"> SAVE ON TRIPS DEPARTING SOON</span>
+            </h6>
+        </section>
+        <section class="head">
+            <aside>
+                <nav onclick="myFunction()" class="nav-bar">
+                    <a class="para" href="index.html">Adventurage</a>
+                    <a href="tour.html">Tour</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact Us</a>
+                </nav>
+            </aside>
+            <button><a href="login.html"><img src="images/user icon.png" alt="image" width="20px"></a></button>
+        </section>
+    </header>
+    <div class="story">
+        <h2>DO WILD THINGS</h2><br>
+        <P>'Do Wild Things' isn't just a slogan - it's the heartbeat of this whole community.
+            It's about chasing the kind of adventures that make you forget WiFi signals and
+            deadlines, the kind that shake you up and leave you feeling a little more you by
+            the end of them. And when we say 'wild,' we're not talking about daring stunts
+            or extreme feats; we mean saying yes to the unknown, stretching your
+            boundaries, connecting IRL and finding the spark in every corner you explore.
+
+            We've seen you out there over the years - climbing snowy peaks, sharing
+            laughs on sun-soaked trails, swapping stories around campfires. That's what
+            inspired 'Do Wild Things'. It's an open invite to jump in, feel a sense of awe - real
+            awe! - and take on challenges that make you feel alive. With every trip, every
+            photo, and every story you share, you're showing us what it means to make life
+            a little wilder - and a whole lot richer.</P><br>
+
+        <h2>Adventure for good</h2><br>
+        <p>When you join a Much Better Adventure, you are supporting a global
+            community of independent, locally owned businesses, and helping protect the
+            planet s most inspiring natural environments, just by being there.</p><br>
+
+        <h2>Led by the very best local experts</h2><br>
+        <p>When choosing our local guides and hosts we pick the crème de la crème. The
+            qualified local guides we partner with know the very best places to explore and
+            how to stay safe.
+        </p>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="contacts">
+                <div class="adventurage">
+                    <h2><a href="index.html">Adventurage</a></h2>
+                    <p>-BOOK WITH CONFIDENCE-</p>
+                </div>
+                <div class="contact-links">
+                    <div class="about">
+                        <h3>ABOUT</h3>
+                        <p><a href="our story.html">Our Story</a></p>
+                        <p><a href="our impact.html">Our Impact</a></p>
+                        <p><a href="meet the team.html">Meet the Team</a></p>
+                    </div>
+                    <div class="customers">
+                        <h3>CUSTOMERS</h3>
+                        <p><a href="contact.html">Contact Us</a></p>
+                        <p><a href="about.html">Terms & Conditions</a></p>
+                        <p><a href="about.html">Privacy Policy</a></p>
+                        <p><a href="about.html">Agency Booking</a></p>
+                    </div>
+                </div>
+            </div>
+            <p>© Copyright Adventurage Ltd. Registration Number 012458697</p>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            let element = document.body;
+            element.classList.toggle("nav-click");
+        }
+    </script>
+</body>
+
+</html>

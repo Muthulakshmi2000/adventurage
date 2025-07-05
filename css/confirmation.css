@@ -1,0 +1,182 @@
+* {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: white;
+    border-inline-style: solid;
+    border-inline-width: 50px;
+    margin: 0;
+}
+
+.header-top {
+    background-color: #16404D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.para {
+    font-family: "Dokdo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+a .para {
+    color: #16404D;
+}
+
+.head {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+}
+
+.nav-bar {
+    background-color: rgb(226, 246, 252);
+    margin: 15px;
+    border: 2px;
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.nav-click a {
+    font-family: "Dokdo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #16404D;
+    text-decoration: underline #16404D;
+}
+
+.head button {
+    background-color: rgb(226, 246, 252);
+    border: 2px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.success {
+    margin: 8%;
+    text-align: center;
+}
+
+.success h1 a {
+    text-decoration: none;
+    font-family: "Dokdo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #16404D;
+    font-size: 4rem;
+}
+
+.success h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.success p{
+    font-size: 1.5rem;
+    color: #16404D;
+}
+footer {
+    background-image: url(/images/footer\ image.png );
+}
+
+.footer {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: auto;
+}
+
+.contact-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 200px;
+}
+
+.adventurage h2 a {
+    font-family: "Dokdo", system-ui;
+    font-style: normal;
+    font-size: 2.5rem;
+    padding-left: 30px;
+}
+
+@media (max-width:950px) {
+    body {
+        background-color: #FFFFFF;
+        border-inline-style: none;
+        border-inline-width: none;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        background-color: #FFFFFF;
+        border-inline-style: none;
+        border-inline-width: none;
+    }
+}
+
+@media (max-width:767px) {
+    .success h1 a {
+    font-size: 3rem;
+}
+
+.success h2{
+    font-size: 2rem;
+}
+
+.success p{
+    font-size: 1.2rem;
+}
+}
+
+@media (max-width:950px) {
+    .contacts {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: auto;
+    }
+
+    .contact-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 2px;
+    }
+}
+
+@media (max-width:767px) {
+    .footer {
+        padding-top: 150px;
+    }
+}

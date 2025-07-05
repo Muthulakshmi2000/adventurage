@@ -1,0 +1,378 @@
+* {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: white;
+  border-inline-style: solid;
+  border-inline-width: 50px;
+  margin: 0;
+}
+
+.header-top {
+  background-color: #16404D;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.para {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+a .para {
+  color: #16404D;
+}
+
+.head {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  padding: 0 15px;
+}
+
+.nav-bar {
+  background-color: rgb(226, 246, 252);
+  margin: 15px;
+  border: 2px;
+  border-radius: 15px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.nav-click a {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #16404D;
+  text-decoration: underline #16404D;
+}
+
+.head button {
+  background-color: rgb(226, 246, 252);
+  border: 2px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.payment {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.div {
+  text-align: center;
+}
+
+.payment h1 a {
+  text-decoration: none;
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #16404D;
+  font-size: 4rem;
+}
+
+.payment h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.payment h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.payment h4 {
+  font-size: 2rem;
+}
+
+.payment input+label {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-num {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card-num h4 {
+  font-weight: 600;
+}
+
+.card-num p a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-link p {
+  border: 2px solid #0f0f0f;
+  padding: 5px;
+  padding-left: 15px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.cvv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.cards p {
+  border: 2px solid #0f0f0f;
+  padding: 25px;
+}
+
+.card-2 {
+  margin-left: 50px;
+}
+
+.card-num button {
+  background-color: #16404D;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 15px;
+
+}
+
+.card-num button a{
+  text-decoration: none;
+  color: white;
+}
+.container-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 8%;
+}
+
+.card-icon {
+  margin: 30px;
+}
+
+.card-icon img {
+  margin-left: 30%;
+}
+
+.card-icon p {
+  color: #16404D;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  background-image: url(/images/footer\ image.png );
+}
+
+.footer {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 8%;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 250px;
+  padding-bottom: 50px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: auto;
+}
+
+.contact-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 200px;
+}
+
+.adventurage h2 a {
+  font-family: "Dokdo", system-ui;
+  font-style: normal;
+  font-size: 2.5rem;
+  padding-left: 30px;
+}
+
+@media (max-width:950px) {
+  body {
+    background-color: #FFFFFF;
+    border-inline-style: none;
+    border-inline-width: none;
+  }
+}
+
+@media (max-width:767px) {
+  body {
+    background-color: #FFFFFF;
+    border-inline-style: none;
+    border-inline-width: none;
+  }
+}
+
+@media (max-width:950px) {
+  .payment h1 a {
+    font-size: 3.5rem;
+  }
+
+  .payment h2 {
+    font-size: 2.2rem;
+  }
+
+  .payment h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:767px) {
+  .payment h1 a {
+    font-size: 3rem;
+  }
+
+  .payment h2 {
+    font-size: 1.5rem;
+  }
+
+  .payment h3 {
+    font-size: 1.5rem;
+  }
+
+  .payment h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width:950px) {
+  .payment input+label {
+    font-size: 1.5rem;
+  }
+
+  .card-num h4 {
+    font-weight: 500;
+  }
+}
+
+@media (max-width:767px) {
+  .payment input+label {
+    font-size: 1.2rem;
+  }
+
+  .card-num {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .card-num h4 {
+    font-weight: 500;
+  }
+}
+
+@media (max-width:950px) {
+  .card-link p {
+    padding-left: 15px;
+    font-size: 1.5rem;
+  }
+
+  .cvv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+}
+
+@media (max-width:767px) {
+  .card-link p {
+    padding-left: 10px;
+    font-size: 1.2rem;
+  }
+
+  .cvv {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width:950px) {
+  .cards p {
+    padding: 20px;
+  }
+
+  .card-2 {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width:767px) {
+  .card-2 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width:950px) {
+  .container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width:767px) {
+  .container-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    grid-template-rows: auto;
+  }
+
+  .card-icon img {
+    margin-left: 40%;
+  }
+}
+
+@media (max-width:950px) {
+  .contacts {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: auto;
+  }
+
+  .contact-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 2px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer {
+    padding-top: 150px;
+  }
+}

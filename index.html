@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Layout</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.cs
+s" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="header-top">
+            <h6>FEELING SPONTANEOUS?! <span style="text-decoration: underline;"> SAVE ON TRIPS DEPARTING SOON</span>
+            </h6>
+        </section>
+        <section class="head">
+            <aside>
+                <nav onclick="myFunction()" class="nav-bar">
+                    <a class="para" href="index.html">Adventurage</a>
+                    <a href="tour.html">Tour</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact Us</a>
+                </nav>
+            </aside>
+            <button><a href="login.html"><img src="images/user icon.png" alt="image" width="20px"></a></button>
+        </section>
+    </header>
+    <main class="container-1">
+        <div class="con-head">
+            <h2>Your Next <br> Adventure Awaits!</h2>
+        </div>
+        <div class="con-content">
+            <p>Discover breathtaking locations, distinct experiences, and memorable travels with Adventurage</p>
+            <button>DISCOVER MORE <img src="images/discover icon.png" alt="image"></button>
+        </div>
+    </main>
+    <div class="image-bg">
+        <img src="images/header image.png" alt="image">
+    </div>
+    <div class="header-image">
+
+        <section class="image-content">
+            <div>
+                <p><img src="images/location icon.png" alt="image">Location</p>
+                <h5>Gulmargh Valley, Kashmir</h5>
+            </div>
+            <div>
+                <p><img src="images/check in icon.png" alt="image"> Check In</p>
+                <h5>27, June 2025</h5>
+            </div>
+            <div>
+                <p><img src="images/check out icon.png" alt="image"> Check Out</p>
+                <h5>30, June 2025</h5>
+            </div>
+            <div>
+                <p><img src="images/people icon.png" alt="image"> People</p>
+                <h5>2 Adults, 2 Children</h5>
+            </div>
+            <div class="search">
+                <img src="images/search icon.png" alt="image">
+            </div>
+        </section>
+    </div>
+    <div id="destination" class="links" style="display: block;">
+        <div class="nav-links">
+            <h6 class="active">Destination</h6>
+            <h6 onclick="showSection('activities')"><a href="#activities">Activities</a></h6>
+            <h6 onclick="showSection('collections')"><a href="#collections">Collections</a></h6>
+        </div>
+        <div class="places">
+            <div class="image-box">
+                <a href="south america.html">
+                    <img src="images/europe home.png" alt="image"><br>
+                    <button>Europe</button>
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="tour.html">
+                    <img src="images/asia home.png" alt="image"><br>
+                    <button>Asia</button>
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="oceania.html">
+                    <img src="images/africa home.png" alt="image"><br>
+                    <button>Africa</button>
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="south america.html">
+                    <img src="images/south america home.png" alt="image"><br>
+                    <button>South America</button>
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="">
+                    <img src="images/north america home.png" alt="image"><br>
+                    <button>North America</button>
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="oceania.html">
+                    <img src="images/oceania home.png" alt="image"><br>
+                    <button>Oceania</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="activities" class="links" style="display: none;">
+        <div class="nav-links">
+            <h6 onclick="showSection('destination')"><a href="#destination">Destination</a></h6>
+            <h6 class="active">Activities</h6>
+            <h6 onclick="showSection('collections')"><a href="#collections">Collections</a></h6>
+        </div>
+        <div class="places">
+            <div class="image-box">
+                <a href="">
+                    <img src="images/activities 1.png" alt="image" width="192px">
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="">
+                    <img src="images/activities 2.png" alt="image" width="192px">
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="">
+                    <img src="images/activities 3.png" alt="image" width="192px">
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="">
+                    <img src="images/activities 4.png" alt="image" width="192px">
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="">
+                    <img src="images/activities 5.png" alt="image" width="192px">
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="">
+                    <img src="images/activities 6.png" alt="image" width="192px">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="collections" class="links" style="display: none;">
+        <div class="nav-links">
+            <h6 onclick="showSection('destination')"><a href="#destination">Destination</a></h6>
+            <h6 onclick="showSection('activities')"><a href="#activities">Activities</a></h6>
+            <h6 class="active">Collections</h6>
+        </div>
+        <div class="places">
+            <div class="image-box">
+                <a href="">
+                    <img src="images/collection 1.png" alt="image" width="192px">
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="">
+                    <img src="images/collection 2.png" alt="image" width="192px">
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="">
+                    <img src="images/collection 3.png" alt="image" width="192px">
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="">
+                    <img src="images/collection 4.png" alt="image" width="192px">
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="">
+                    <img src="images/collection 5.png" alt="image" width="192px">
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="">
+                    <img src="images/collection 6.png" alt="image" width="192px">
+                </a>
+            </div>
+        </div>
+    </div>
+    <main class="container-1">
+        <div class="con-head">
+            <h2>Experience Our One-of-a-kind tour package</h2>
+        </div>
+        <div class="con-content">
+            <p>Find your dream escape with our tailored tour packages be it adventure,
+                relaxation, or cultural experiences, everything you need is right here</p>
+        </div>
+    </main>
+    <div class="place">
+        <div class="package">
+            <a href="des 1.html">
+                <button><img src="images/filled location icon.png" alt="image">Japan</button><br> <img
+                    src="images/fuji mount.png" alt="image" width="">
+                <div class="rating">
+                    <h4>Fuji Mount</h4>
+                    <h4><img src="images/rating star icon.png" alt="image">4.5</h4>
+                </div>
+                <h5>₹ 25,000</h5>
+                <p><img src="images/tick circle icon.png" alt="image"> Including Accommodation <br>
+                    <img src="images/tick circle icon.png" alt="image"> Free Professional Guide Tour <br>
+                    <img src="images/tick circle icon.png" alt="image"> 3 days 2 Nights
+                </p>
+            </a>
+        </div>
+        <div class="package">
+            <a href="des 2.html">
+                <button><img src="images/filled location icon.png" alt="image"> Africa</button><br>
+                <img src="images/kiliman.png" alt="image" width="">
+                <div class="rating">
+                    <h4>Kilimanjaro</h4>
+                    <h4><img src="images/rating star icon.png" alt="image">4.7</h4>
+                </div>
+                <h5>₹ 34,500</h5>
+            </a>
+        </div>
+        <div class="package">
+            <a href="des 3.html">
+                <button><img src="images/filled location icon.png" alt="image"> Central America</button><br>
+                <img src="images/costa rica.png" alt="image" width="">
+                <div class="rating">
+                    <h4>Costa Rica</h4>
+                    <h4><img src="images/rating star icon.png" alt="image">4.2</h4>
+                </div>
+                <h5>₹ 60,400</h5>
+            </a>
+        </div>
+        <div style="text-align: center;" class="package">
+            <a href="tour.html">
+                <img src="images/view all.png" alt="image" width="">
+                <h3 style="font-weight: bold;">View All</h3>
+                <img class="loc-image" src="images/discover icon.png" alt="image">
+            </a>
+        </div>
+    </div>
+    <main class="container-1">
+        <div class="con-head">
+            <h2>Find the Right Level <br> for You !</h2>
+        </div>
+        <div class="con-content">
+            <p>Our adventures are tailored to meet a variety of fitness levels so you can pick the perfect match</p>
+        </div>
+    </main>
+    <div class="place">
+        <div class="place-image">
+            <img src="images/easy (1).png" alt="image">
+            <h6>EASY</h6>
+            <button class="button-1"></button>
+            <button class="button-2"></button>
+            <button class="button-2"></button>
+            <button class="button-2"></button>
+        </div>
+        <div class="place-image">
+            <img src="images/moderate (1).png" alt="image">
+            <h6>MODERATE</h6>
+            <button class="button-1"></button>
+            <button class="button-3"></button>
+            <button class="button-2"></button>
+            <button class="button-2"></button>
+        </div>
+        <div class="place-image">
+            <img src="images/challenging (1).png" alt="image">
+            <h6>CHALLENGING</h6>
+            <button class="button-1"></button>
+            <button class="button-3"></button>
+            <button class="button-4"></button>
+            <button class="button-2"></button>
+        </div>
+        <div class="place-image">
+            <img src="images/tough (1).png" alt="image">
+            <h6>TOUGH</h6>
+            <button class="button-1"></button>
+            <button class="button-3"></button>
+            <button class="button-4"></button>
+            <button class="button-5"></button>
+        </div>
+    </div>
+    <div class="tour-head">
+        <h2>Professional Tour <br> Guide</h2>
+    </div>
+    <div class="place">
+        <div class="package">
+            <img src="images/tour guide 1.png" alt="image" width="">
+            <h5>Yedidyah Cherub</h5>
+            <p>Adventure Tour Guide</p>
+        </div>
+        <div class="package">
+            <img src="images/tour guide 2.png" alt="image" width="">
+            <h5>Selah Seraphina</h5>
+            <p>Mountain Tour Guide</p>
+        </div>
+        <div class="package">
+            <img src="images/tour guide 3.png" alt="image" width="">
+            <h5>Niko Daves</h5>
+            <p>Island Tour Guide </p>
+        </div>
+        <div style="text-align: center;" class="package">
+            <div class="guide">
+                <div class="tour-guide">
+                    <img class="guide-1" src="images/tour guide stack 1.png" alt="image">
+                    <img class="guide-2" src="images/tour guide stack 2.png" alt="image">
+                    <img class="guide-3" src="images/tour guide stack 3.png" alt="image">
+                    <img class="guide-4" src="images/tour guide stack 4.png" alt="image">
+                    <img class="guide-5" src="images/tour guide stack 5.png" alt="image">
+                </div>
+                <h6>100+ Tour guide</h6><br><br>
+                <h5>Guide & <br> Offers</h5>
+            </div>
+            <img class="loc-image" src="images/discover icon.png" alt="image">
+        </div>
+    </div>
+    <div class="containers">
+        <div class="container-head">
+            <h2>Every Step of the <br> Way <img class="loc-image" src="images/discover icon.png" alt="image"></h2>
+            <p>Travel with ease and comfort. From private transfers to group tours we
+                ensure seamless transportation throughtout your journey</p>
+        </div>
+        <div class="container-content">
+            <h4>TRANSPORT</h4>
+            <h2>Effortless Travel</h2>
+            <h6><img src="images/plane icon.png" alt="image"> Plane</h6>
+            <p>We provide flights with schedules according to the airport or can be customized</p>
+            <h6><img src="images/train icon.png" alt="image"> Train</h6>
+            <p>We provide trains with schedules according to the station or can be customized</p>
+            <h6><img src="images/car icon.png" alt="image"> Car</h6>
+            <p>We provide cars with schedules according to customization</p>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="card-icon">
+            <img src="images/bottom icon 1.png" alt="image" width="80px">
+            <p>Explore place you
+                couldn t yourself
+            </p>
+        </div>
+        <div class="card-icon">
+            <img src="images/bottom icon 2.png" alt="image" width="80px">
+            <p>Go with the outdoor
+                specialists</p>
+        </div>
+        <div class="card-icon">
+            <img src="images/bottom icon 3.png" alt="image" width="80px">
+            <p>Join a small like-
+                minded group</p>
+        </div>
+        <div class="card-icon">
+            <img src="images/bottom icon.png" alt="image" width="80px">
+            <p>Hassel free from
+                start to finish</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="contacts">
+                <div class="adventurage">
+                    <h2><a href="index.html">Adventurage</a></h2>
+                    <p>-BOOK WITH CONFIDENCE-</p>
+                </div>
+                <div class="contact-links">
+                    <div class="about">
+                        <h3>ABOUT</h3>
+                        <p><a href="our story.html">Our Story</a></p>
+                        <p><a href="our impact.html">Our Impact</a></p>
+                        <p><a href="meet the team.html">Meet the Team</a></p>
+                    </div>
+                    <div class="customers">
+                        <h3>CUSTOMERS</h3>
+                        <p><a href="contact.html">Contact Us</a></p>
+                        <p><a href="about.html">Terms & Conditions</a></p>
+                        <p><a href="about.html">Privacy Policy</a></p>
+                        <p><a href="about.html">Agency Booking</a></p>
+                    </div>
+                </div>
+            </div>
+            <p>© Copyright Adventurage Ltd. Registration Number 012458697</p>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            let element = document.body;
+            element.classList.toggle("nav-click");
+        }
+        function showSection(sectionIdToShow) {
+            var sections = document.querySelectorAll('div[id^="section"]');
+            sections.forEach(function (section) {
+                section.style.display = 'none';
+            });
+            var targetSection = document.getElementById(sectionIdToShow);
+            if (targetSection) {
+                targetSection.style.display = 'block';
+            }
+            else{
+                targetSection.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>
